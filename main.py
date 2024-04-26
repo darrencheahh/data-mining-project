@@ -1,10 +1,7 @@
 import pandas as pd
 import re
 import spacy
-import openai
-from sklearn.feature_extraction.text import CountVectorizer
 
-openai.api_key = 'sk-proj-hOCv06CKuBr6Nxwqk5QCT3BlbkFJ2yikQYlvSjCozO1ekEXI'
 
 #Load dataset
 file_path = 'cnbc_headlines02.csv'
